@@ -53,15 +53,15 @@ def get_message(incoming_msg):
         message_data = "Alula is the first phone case to hold, protect, and dispense your brith control pills!  You simply put your pills into the case every month and our app will remind you everyday at the optimal time to take them!"
     elif(incoming_msg.lower()=="is alula protective for my phone?"):
         message_data = "Absolutely! Alula uses (enter materials here) those same materials are used in some of the best selling phone cases on the market."
-    elif(incoming_msg.lower=="how does it work?"):
+    elif(incoming_msg.lower()=="how does it work?"):
         message_data = "Insert how to video"
-    elif(incoming_msg.lower=="will radiation from the phone affect my pills?"):
+    elif(incoming_msg.lower()=="will radiation from the phone affect my pills?"):
         message_data = "Radiation means heat! Heat would be bad for your pill but luckily we are using (enter material here) that will protect and insulate the pills from your iPhone's maximum operating temperature. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
-    elif(incoming_msg.lower=="can I leave alula in the sun for extended amounts of time?"):
+    elif(incoming_msg.lower()=="can I leave alula in the sun for extended amounts of time?"):
         message_data = "It is not recommended to leave your phone in the sun for extended amount of time as it acts as a conductor and will cause your phone to overheat. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
-    elif(incoming_msg.lower=="how should I load it?"):
+    elif(incoming_msg.lower()=="how should I load it?"):
         message_data = "Load it by day as marked on your blister pack! There are letters to represent the day of the week, just match em up!"
-    elif(incoming_msg.lower=="what kind of birth control pills does it hold?"):
+    elif(incoming_msg.lower()=="what kind of birth control pills does it hold?"):
         message_data = "All kinds! Though the case pill plate dimensions are the appropriate depth for the average birth control pill regardless of brand."
     else:
         message_data = "Thanks for messaging us! We will get back to you shortly."
