@@ -50,7 +50,7 @@ def webhook():
 
     return "ok", 200
 def get_message(incoming_msg):
-    if(incoming_msg.lower()=="what is alula"):
+    if(incoming_msg.lower()=="what is alula?"):
         message_data = "Alula is the first phone case to hold, protect, and dispense your brith control pills!  You simply put your pills into the case every month and our app will remind you everyday at the optimal time to take them!"
     elif(incoming_msg.lower()=="is alula protective for my phone?"):
         message_data = "Absolutely! Alula uses (enter materials here) those same materials are used in some of the best selling phone cases on the market."
@@ -64,6 +64,20 @@ def get_message(incoming_msg):
         message_data = "Load it by day as marked on your blister pack! There are letters to represent the day of the week, just match em up!"
     elif(incoming_msg.lower()=="what kind of birth control pills does it hold?"):
         message_data = "All kinds! Though the case pill plate dimensions are the appropriate depth for the average birth control pill regardless of brand."
+    elif(incoming_msg.lower()=="how will I know what day I am on?"):
+        message_data = "You should download the alula app! It will help you stay up to date not only on when to take your pill but what day you’re on and how many are left in alula! If you are unsure, feel free to open alula to double check!"
+    elif(incoming_msg.lower()=="how many pills does it hold?"):
+        message_data = "21! Sorry for those of you who like your sugar pills, but the app will keep you on track and you can feel free to still take them or reload alula! If you take 28 days worth of true birth control pills we recommend reloading alula with the final week and then restarting the process after your menstrual cycle."
+    elif(incoming_msg.lower()=="is there an app?"):
+        message_data = "Hell yeah there is! It is the my alula app and it is available on the app store.  We recommend downloading the app as it will help you track your progress, keep you on time, and make sure you’re up to date!"
+    elif(incoming_msg.lower()=="is this FDA approved?"):
+        message_data = "Pill cases are considered a class I medical device and do not need approved by the FDA as long as they meet industry standards as far as keeping it air-tight and out of direct sunlight, which we have with (insert materials here)"
+    elif(incoming_msg.lower()=="where can I reach out to if I have further questions or want to get in contact with the my alula team?"):
+        message_data = "You can reach out directly on our website on the “contact us” page, via email at info@myalula.com"
+    elif(incoming_msg.lower()=="how much does alula cost?"):
+        message_data = "Right now we are pricing alula at $35 in efforts to cover start-up costs, shipping costs, and production costs. As it gains in popularity and more alula cases are sold we will be looking forward to reducing that price to make it more affordable."
+    elif(incoming_msg.lower()=="where can I buy alula?"):
+        message_data = "Right now we are holding a pre-sale Indiegogo launch which you can place your order on, and after that has reached its conclusion and we begin manufacturing we will begin pre-orders via our e-commerce website www.myalula.com, and once they go on sale officially we will be operating online on our website and as an amazon store."
     else:
         message_data = "Thanks for messaging us! We will get back to you shortly."
     return message_data
