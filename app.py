@@ -46,7 +46,8 @@ def webhook():
                 send_message(sender_id, message_data)
     except:
         pass
-	return "ok", 200
+
+    return "ok", 200
 
 def send_message(recipient_id, message_text):
 
