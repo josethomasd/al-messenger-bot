@@ -65,11 +65,11 @@ def get_message(incoming_msg):
     elif(incoming_msg.lower()=="what kind of birth control pills does it hold?"):
         message_data = "All kinds! Though the case pill plate dimensions are the appropriate depth for the average birth control pill regardless of brand."
     elif(incoming_msg.lower()=="how will I know what day I am on?"):
-        message_data = "You should download the alula app! It will help you stay up to date not only on when to take your pill but what day you’re on and how many are left in alula! If you are unsure, feel free to open alula to double check!"
+        message_data = "You should download the alula app! It will help you stay up to date not only on when to take your pill but what day you're on and how many are left in alula! If you are unsure, feel free to open alula to double check!"
     elif(incoming_msg.lower()=="how many pills does it hold?"):
         message_data = "21! Sorry for those of you who like your sugar pills, but the app will keep you on track and you can feel free to still take them or reload alula! If you take 28 days worth of true birth control pills we recommend reloading alula with the final week and then restarting the process after your menstrual cycle."
     elif(incoming_msg.lower()=="is there an app?"):
-        message_data = "Hell yeah there is! It is the my alula app and it is available on the app store.  We recommend downloading the app as it will help you track your progress, keep you on time, and make sure you’re up to date!"
+        message_data = "Hell yeah there is! It is the my alula app and it is available on the app store.  We recommend downloading the app as it will help you track your progress, keep you on time, and make sure you're up to date!"
     elif(incoming_msg.lower()=="is this FDA approved?"):
         message_data = "Pill cases are considered a class I medical device and do not need approved by the FDA as long as they meet industry standards as far as keeping it air-tight and out of direct sunlight, which we have with (insert materials here)"
     elif(incoming_msg.lower()=="where can I reach out to if I have further questions or want to get in contact with the my alula team?"):
