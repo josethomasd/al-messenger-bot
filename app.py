@@ -58,21 +58,21 @@ def get_message(incoming_msg):
         message_data = "Insert how to video"
     elif(incoming_msg.lower()=="will radiation from the phone affect my pills?"):
         message_data = "Radiation means heat! Heat would be bad for your pill but luckily we are using (enter material here) that will protect and insulate the pills from your iPhone's maximum operating temperature. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
-    elif(incoming_msg.lower()=="can I leave alula in the sun for extended amounts of time?"):
+    ``elif(incoming_msg.lower()=="can I leave alula in the sun for extended amounts of time?"):
         message_data = "It is not recommended to leave your phone in the sun for extended amount of time as it acts as a conductor and will cause your phone to overheat. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
-    elif(incoming_msg.lower()=="how should I load it?"):
+    ``elif(incoming_msg.lower()=="how should I load it?"):
         message_data = "Load it by day as marked on your blister pack! There are letters to represent the day of the week, just match em up!"
     elif(incoming_msg.lower()=="what kind of birth control pills does it hold?"):
         message_data = "All kinds! Though the case pill plate dimensions are the appropriate depth for the average birth control pill regardless of brand."
-    elif(incoming_msg.lower()=="how will I know what day I am on?"):
+    ``elif(incoming_msg.lower()=="how will I know what day I am on?"):
         message_data = "You should download the alula app! It will help you stay up to date not only on when to take your pill but what day you're on and how many are left in alula! If you are unsure, feel free to open alula to double check!"
     elif(incoming_msg.lower()=="how many pills does it hold?"):
         message_data = "21! Sorry for those of you who like your sugar pills, but the app will keep you on track and you can feel free to still take them or reload alula! If you take 28 days worth of true birth control pills we recommend reloading alula with the final week and then restarting the process after your menstrual cycle."
     elif(incoming_msg.lower()=="is there an app?"):
         message_data = "Hell yeah there is! It is the my alula app and it is available on the app store.  We recommend downloading the app as it will help you track your progress, keep you on time, and make sure you're up to date!"
-    elif(incoming_msg.lower()=="is this FDA approved?"):
+    ```elif(incoming_msg.lower()=="is this FDA approved?"):
         message_data = "Pill cases are considered a class I medical device and do not need approved by the FDA as long as they meet industry standards as far as keeping it air-tight and out of direct sunlight, which we have with (insert materials here)"
-    elif(incoming_msg.lower()=="where can I reach out to if I have further questions or want to get in contact with the my alula team?"):
+    ```elif(incoming_msg.lower()=="where can I reach out to if I have further questions or want to get in contact with the my alula team?"):
         message_data = '''You can reach out directly on our website on the "contact us" page, via email at info@myalula.com'''
     elif(incoming_msg.lower()=="how much does alula cost?"):
         message_data = "Right now we are pricing alula at $35 in efforts to cover start-up costs, shipping costs, and production costs. As it gains in popularity and more alula cases are sold we will be looking forward to reducing that price to make it more affordable."
