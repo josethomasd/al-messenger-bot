@@ -56,7 +56,7 @@ def get_message(incoming_msg):
     elif(incoming_msg.lower=="how does it work?"):
         message_data = "Insert how to video"
     elif(incoming_msg.lower=="will radiation from the phone affect my pills?"):
-        message_data = "Radiation means heat! Heat would be bad for your pill but luckily we are using (enter material here) that will protect and insulate the pills from your iPhone’s maximum operating temperature. If your phone overheats, we recommend removing the case to keep your pills as safe as possible! "
+        message_data = "Radiation means heat! Heat would be bad for your pill but luckily we are using (enter material here) that will protect and insulate the pills from your iPhone's maximum operating temperature. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
     elif(incoming_msg.lower=="can I leave alula in the sun for extended amounts of time?"):
         message_data = "It is not recommended to leave your phone in the sun for extended amount of time as it acts as a conductor and will cause your phone to overheat. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
     elif(incoming_msg.lower=="how should I load it?"):
