@@ -53,9 +53,9 @@ def get_message(incoming_msg):
     if(incoming_msg.lower()=="what is alula?"):
         message_data = "Alula is the first phone case to hold, protect, and dispense your brith control pills!  You simply put your pills into the case every month and our app will remind you everyday at the optimal time to take them!"
     elif(incoming_msg.lower()=="is alula protective for my phone?"):
-        message_data = "Absolutely! Alula uses (enter materials here) those same materials are used in some of the best selling phone cases on the market."
+        message_data = "Absolutely! Alula uses those same materials which are used in some of the best selling phone cases on the market."
     elif(incoming_msg.lower()=="how does it work?"):
-        message_data = "Insert how to video"
+        message_data = "Visit your website http://www.myalula.com/ for more details."
     elif(incoming_msg.lower()=="will radiation from the phone affect my pills?"):
         message_data = "Radiation means heat! Heat would be bad for your pill but luckily we are using (enter material here) that will protect and insulate the pills from your iPhone's maximum operating temperature. If your phone overheats, we recommend removing the case to keep your pills as safe as possible!"
     elif(incoming_msg.lower()=="can I leave alula in the sun for extended amounts of time?"):
