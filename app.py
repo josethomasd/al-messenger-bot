@@ -41,7 +41,7 @@ def webhook():
             if data["entry"][0]["messaging"]:
                 sender_id = data["entry"][0]["messaging"][0]["sender"]["id"]
                 # the facebook ID of the person sending you the message 
-                message_text = data["entry"][0]["messaging"]["text"]  # the message's text
+                message_text = data["entry"][0]["messaging"]["message"]["text"]  # the message's text
                 message_text = '+'.join(message_text.split(" "))
                 message_data = get_message(message_text)
                 send_message(sender_id, message_data)
