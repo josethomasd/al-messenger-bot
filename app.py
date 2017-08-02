@@ -73,7 +73,7 @@ def get_message(incoming_msg):
     elif(incoming_msg.lower()=="is this FDA approved?"):
         message_data = "Pill cases are considered a class I medical device and do not need approved by the FDA as long as they meet industry standards as far as keeping it air-tight and out of direct sunlight, which we have with (insert materials here)"
     elif(incoming_msg.lower()=="where can I reach out to if I have further questions or want to get in contact with the my alula team?"):
-        message_data = "You can reach out directly on our website on the "contact us" page, via email at info@myalula.com"
+        message_data = '''You can reach out directly on our website on the "contact us" page, via email at info@myalula.com'''
     elif(incoming_msg.lower()=="how much does alula cost?"):
         message_data = "Right now we are pricing alula at $35 in efforts to cover start-up costs, shipping costs, and production costs. As it gains in popularity and more alula cases are sold we will be looking forward to reducing that price to make it more affordable."
     elif(incoming_msg.lower()=="where can I buy alula?"):
